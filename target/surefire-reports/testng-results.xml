@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17370" started-at="2019-02-05T11:38:58Z" finished-at="2019-02-05T11:39:16Z">
+    <groups>
+    </groups>
+    <test name="testngTest1" duration-ms="17370" started-at="2019-02-05T11:38:58Z" finished-at="2019-02-05T11:39:16Z">
+      <class name="tests.TestScriptsAmazon">
+        <test-method status="PASS" signature="BaseTest1()[pri:0, instance:tests.TestScriptsAmazon@2c9f9fb0]" name="BaseTest1" is-config="true" duration-ms="3149" started-at="2019-02-05T11:38:58Z" finished-at="2019-02-05T11:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseTest1 -->
+        <test-method status="PASS" signature="TC1_SearchItem_AddToCart()[pri:0, instance:tests.TestScriptsAmazon@2c9f9fb0]" name="TC1_SearchItem_AddToCart" duration-ms="12709" started-at="2019-02-05T11:39:02Z" finished-at="2019-02-05T11:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_SearchItem_AddToCart -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TestScriptsAmazon@2c9f9fb0]" name="afterTest" is-config="true" duration-ms="1489" started-at="2019-02-05T11:39:14Z" finished-at="2019-02-05T11:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestScriptsAmazon -->
+    </test> <!-- testngTest1 -->
+  </suite> <!-- Suite -->
+</testng-results>

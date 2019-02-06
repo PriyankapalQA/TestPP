@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="2" verbose="0" name="testngTest1(failed)">
+    <classes>
+      <class name="tests.TestScriptsAmazon">
+        <methods>
+          <include name="TC1_SearchItem_AddToCart"/>
+          <include name="BaseTest1"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- tests.TestScriptsAmazon -->
+    </classes>
+  </test> <!-- testngTest1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

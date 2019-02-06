@@ -1,0 +1,38 @@
+# Created at 2019-01-09T11:06:41.669
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-01-09T11:06:44.888
+Unexpected IOException with stream: Jan 09, 2019 11:06:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2019-01-09T11:06:44.903
+Unexpected IOException with stream: I am in onTestStart method executeSessionTwo start
+
+
+# Created at 2019-01-09T11:06:44.903
+Unexpected IOException: 5,1,testPP.TestBrowserStack,executeSessionTwo(testPP.TestBrowserStack),testPP.TestBrowserStack,null,null
+
+
+# Created at 2019-01-09T11:06:56.874
+Unexpected IOException with stream: I am in onTestSuccess method executeSessionTwo succeed
+
+
+# Created at 2019-01-09T11:06:56.890
+Unexpected IOException: 6,1,testPP.TestBrowserStack,executeSessionTwo(testPP.TestBrowserStack),null,null,null
+
+
+# Created at 2019-01-09T11:06:57.093
+Unexpected IOException with stream: I am in onFinish method testngTest1
+
+
+# Created at 2019-01-09T11:06:58.843
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
