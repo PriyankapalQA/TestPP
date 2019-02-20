@@ -54,6 +54,19 @@ public class CommonFunctions {
 		}
 		return oldTab;
 	}
+	
+	
+	public void highlightCurrentElement(WebElement element,WebDriver driver)
+	{
+		for(int i=0;i<2;i++)
+		{
+			JavascriptExecutor jse = (JavascriptExecutor)driver;
+			jse.executeScript("arguments[0].setAttribute('style', arguments[1]);",element,"colour: orange; border:4px solid orange;");
+			jse.executeScript("arguments[0].setAttribute('style', arguments[1]);",element,"colour: pink; border:4px solid pink;");
+			jse.executeScript("arguments[0].setAttribute('style', arguments[1]);",element,"colour: yellow; border:4px solid yellow;");
+			jse.executeScript("arguments[0].setAttribute('style', arguments[1]);",element,"");
+		}
+	}
 
 
 	

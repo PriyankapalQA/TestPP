@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.TestScriptsAmazon">
         <methods>
-          <include name="TC1_SearchItem_AddToCart"/>
           <include name="BaseTest1"/>
+          <include name="TC0_Hover_TestToolTip"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- tests.TestScriptsAmazon -->
