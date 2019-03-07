@@ -28,7 +28,7 @@ public class CommonFunctions {
 		{
 			driver.get(url);
 			driver.manage().window().maximize();  
-			// DriverUtil.driver.manage().timeouts().implicitlyWait(,TimeUnit.SECONDS) ;
+			// DriverUtil.driver.manage().timeouts().implicitlyWait(,TimeUnit.SECONDS) ;////
 		
 			
 		}
